@@ -60,9 +60,10 @@ header {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--primary-brand-color);
 }
 .nav-logo span {
-  color: var(--primary-brand-color);
+  color: var(--dark-color);
 }
 /* #endregion Logo */
 
@@ -80,6 +81,7 @@ header {
 /* #region Contacts */
 .contacts {
   /* font-weight: 400; */
+  font-style: normal
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -87,9 +89,9 @@ header {
 }
 .contacts-list {
 }
-.contacts-list li:hover,
-.contacts-list li:focus,
-.contacts-list li:active {
+.contacts-item-link:hover,
+.contacts-item-link:focus,
+.contacts-item-link:active {
   color: var(--pressed-state-color);
 }
 /* #endregion Contacts */
