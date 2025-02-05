@@ -16,19 +16,10 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  /* font-weight: 400; */
   background-color: #ffffff;
   color: var(--text-color);
 }
 .visually-hidden {
-  /* position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0; */
 }
 /* remove list dots */
 ul {
@@ -99,10 +90,8 @@ a {
 .hero {
   /* TODO помилка в макеті колір hero-background не відповідає style guide*/
   background-color: var(--dark-color);
-  /* padding: 80px 0; */
   text-align: center;
   color: var(--white-background-color);
-  /* height: 600px */
 }
 
 .hero h1 {
@@ -121,12 +110,7 @@ a {
   color: inherit;
   background-color: var(--primary-brand-color);
   border: none;
-  /* border-radius: 4px; */
-  /* padding: 16px 32px; */
   /* TODO не зрозуміло чому не вміщається текст якщо задати ширину з фігми */
-  /* width: 169px; */
-  /* height: 56px; */
-  /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
 }
 .hero button:hover,
 .hero button:focus,
@@ -136,25 +120,14 @@ a {
 /* #endregion Hero Section */
 
 /* #region Features Section */
-.feature {
-
-}
-
-.feature-list {
-
-}
-.feature-list li {
-
-}
-.feature-list h3 {
+.feature-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark-color);
 }
-.feature-list p {
-  /* font-weight: 400; */
+.feature-item-txt {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -176,22 +149,13 @@ a {
   color: var(--dark-color);
 }
 .team-list {
-  /*  */
 }
-.team-list > li {
-  /* border-radius: 0 0 4px 4px; */
-  /* padding: 0px 0px 32px 0px; */
-  /* width: 264px; */
-  /* height: 380px; */
-
-  /* box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08); */
+.team-item {
   background: var(--white-background-color);
 }
-.team-list > li > img {
-  /* width: 264px; */
-  /* height: 260px; */
+.team-item  > img {
 }
-.team-list > li > h3 {
+.team-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -199,8 +163,7 @@ a {
   text-align: center;
   color: var(--dark-color);
 }
-.team-list > li > p {
-  /* font-weight: 400; */
+.team-item-txt {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -221,15 +184,6 @@ a {
   text-transform: capitalize;
   color: var(--dark-color);
 }
-.portfolio-list {
-}
-.portfolio-list > li {
-
-}
-.portfolio-list > li > img {
-
-}
-
 .portfolio-item-title {
   font-weight: 500;
   font-size: 20px;
@@ -244,7 +198,6 @@ a {
   letter-spacing: 0.02em;
   color: var(--text-color)
 }
-
 /* #endregion Portfolio Section */
 
 /* #region Footer */
