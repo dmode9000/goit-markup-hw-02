@@ -58,9 +58,9 @@ a {
 /* #region Menu */
 .nav-list {
 }
-.nav-list li:hover,
-.nav-list li:focus,
-.nav-list li:active {
+.nav-item-link:hover,
+.nav-item-link:focus,
+.nav-item-link:active {
   color: var(--pressed-state-color);
   /* TODO не зрозуміло що робити з підкресленням Active на Style Guide */
 }
@@ -69,7 +69,7 @@ a {
 /* #region Contacts */
 .contacts {
   /* font-weight: 400; */
-  font-style: normal
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -115,7 +115,7 @@ a {
 .hero button:hover,
 .hero button:focus,
 .hero button:active {
-  background-color: var(--pressed-state-color); #404bbf;
+  background-color: var(--pressed-state-color);
 }
 /* #endregion Hero Section */
 
@@ -153,7 +153,7 @@ a {
 .team-item {
   background: var(--white-background-color);
 }
-.team-item  > img {
+.team-item > img {
 }
 .team-item-title {
   font-weight: 500;
@@ -196,7 +196,7 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--text-color)
+  color: var(--text-color);
 }
 /* #endregion Portfolio Section */
 
