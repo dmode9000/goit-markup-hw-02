@@ -42,9 +42,6 @@ a {
 /* #endregion global styles */
 
 /* #region Navigation */
-header {
-
-}
 .navigation {
   font-weight: 500;
   font-size: 16px;
@@ -140,18 +137,14 @@ header {
 
 /* #region Features Section */
 .feature {
-  /* display: grid; */
-  /* place-items: center; */
+
 }
 
 .feature-list {
-  /* display: flex; */
-  /* gap: 24px; Відступ між елементами */
-  /* padding: 0; Видаляє внутрішні відступи */
+
 }
 .feature-list li {
-  /* width: 264px; */
-  /* margin-right: 10px; Відступ між елементами */
+
 }
 .feature-list h3 {
   font-weight: 500;
