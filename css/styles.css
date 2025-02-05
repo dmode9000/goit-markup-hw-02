@@ -173,14 +173,17 @@ header {
 .team {
   background: var(--light-color);
 }
-.team > h2 {
+.team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
+  color: var(--dark-color);
 }
 .team-list {
+  /*  */
 }
 .team-list > li {
   /* border-radius: 0 0 4px 4px; */
@@ -201,6 +204,7 @@ header {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  color: var(--dark-color);
 }
 .team-list > li > p {
   /* font-weight: 400; */
@@ -218,9 +222,11 @@ header {
 .portfolio > h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
+  color: var(--dark-color);
 }
 .portfolio-list {
 }
@@ -229,18 +235,10 @@ header {
   /* height: 420px; */
 }
 .portfolio-list > li > img {
-  /* width: 360px; */
-  /* height: 300px; */
+  width: 360px;
+  height: 300px;
 }
 
-.portfolio-item-bottom-container {
-  /* border-bottom: 1px solid #e7e9fc; */
-  /* border-left: 1px solid #e7e9fc; */
-  /* border-right: 1px solid #e7e9fc; */
-  /* padding: 32px 16px; */
-  /* width: 360px; */
-  /* height: 120px; */
-}
 .portfolio-item-bottom-container > h3 {
   font-weight: 500;
   font-size: 20px;
@@ -258,7 +256,7 @@ header {
 /* #endregion Portfolio Section */
 
 /* #region Footer */
-footer {
+.footer {
   background: var(--dark-color);
 }
 .footer-logo-lnk {
@@ -268,14 +266,12 @@ footer {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: var(--primary-brand-color);
 }
 .footer-logo-lnk > span {
-  color: #4d5ae5;
+  color: var(--light-color);
 }
-footer > p {
-  /* width: 264px; */
-  /* font-weight: 400; */
+.footer > p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
